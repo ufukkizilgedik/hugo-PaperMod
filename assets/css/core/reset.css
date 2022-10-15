@@ -27,6 +27,9 @@ body {
     line-height: 1.6;
     word-break: break-word;
     background: var(--theme);
+    font-variant: common-ligatures;
+    font-feature-settings: "liga","clig";
+    font-kerning: normal;
 }
 
 article,
