@@ -28,7 +28,7 @@ body {
     word-break: break-word;
     background: var(--theme);
     font-variant: common-ligatures;
-    font-feature-settings: "liga","clig";
+    font-feature-settings: "liga","clig","pnum" on,"lnum" on,"ss01" on,"case" on;
     font-kerning: normal;
 }
 
@@ -53,7 +53,7 @@ h4,
 h5,
 h6 {
     line-height: 1.2;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 h1,

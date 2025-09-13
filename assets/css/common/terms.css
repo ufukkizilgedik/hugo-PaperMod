@@ -10,6 +10,7 @@
     background: var(--tertiary);
     border-radius: var(--radius);
     transition: transform 0.1s;
+    color:  var(--secondary);
 }
 
 .terms-tags a:active {

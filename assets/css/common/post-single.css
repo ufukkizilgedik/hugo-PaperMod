@@ -1,10 +1,10 @@
 .page-header,
 .post-header {
-    margin: 24px auto var(--content-gap) auto;
+    margin: 1.62em auto 1.62em auto;
 }
 
 .post-title {
-    margin-bottom: 2px;
+    margin-bottom: 0.3em;
     font-size: 40px;
 }
 
@@ -27,9 +27,10 @@
     margin: auto 3px;
     box-shadow: 0 1px 0 var(--secondary);
 }
-
+Aside from the pseudo-scientific claims that periodically surface and keep the public interest on the subject alive, scientific community at large, social scientists, psychologists, and other public intellectuals
 .breadcrumbs a {
     font-size: 16px;
+    color: var(--secondary);
 }
 
 .post-content {
@@ -93,6 +94,10 @@
     margin-bottom: var(--content-gap);
 }
 
+.post-content p{
+    margin-bottom: 1.6em;
+}
+
 .post-content ol,
 .post-content ul {
     padding-inline-start: 20px;
@@ -114,7 +119,7 @@
 
 .post-content dt {
     width: 25%;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .post-content dd {
@@ -254,7 +259,6 @@
 
 .toc {
     margin: 0 2px 40px 2px;
-    border: 1px solid var(--border);
     background: var(--code-bg);
     border-radius: var(--radius);
     padding: 0.4em;
@@ -297,16 +301,14 @@
 
 .post-tags li {
     display: inline-block;
-    margin-inline-end: 3px;
+    margin-inline-end: 0.4em;
     margin-bottom: 5px;
 }
 
 .post-tags a,
-.share-buttons,
 .paginav {
     border-radius: var(--radius);
     background: var(--code-bg);
-    border: 1px solid var(--border);
 }
 
 .post-tags a {
@@ -354,7 +356,7 @@ h6:hover .anchor {
 }
 
 .paginav {
-    margin: 10px 0;
+    margin: 10px 0 2em 0;
     display: flex;
     line-height: 30px;
     border-radius: var(--radius);
@@ -364,6 +366,8 @@ h6:hover .anchor {
     padding-inline-start: 14px;
     padding-inline-end: 14px;
     border-radius: var(--radius);
+    padding: 1em;
+    line-height: 1.6;
 }
 
 .paginav .title {
