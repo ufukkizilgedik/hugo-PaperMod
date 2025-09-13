@@ -12,6 +12,9 @@
 {{- if eq site.Params.defaultTheme `dark` -}}
 {{- print " dark" }}
 {{- end -}}
+{{- if site.Params.show_grid -}}
+{{- print " show-baseline-grid" -}}
+{{- end -}}
 " id="top">
     {{- partialCached "header.html" . .Page -}}
     <main class="main">
@@ -19,5 +22,4 @@
     </main>
     {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
 </body>
-
 </html>

@@ -1,10 +1,10 @@
 .page-header,
 .post-header {
-    margin: 1.62em auto 1.62em auto;
+    margin: 1.5em auto 2.3em auto;
 }
 
 .post-title {
-    margin-bottom: 0.3em;
+    margin-bottom: 0.22em;
     font-size: 40px;
 }
 
@@ -95,7 +95,7 @@ Aside from the pseudo-scientific claims that periodically surface and keep the p
 }
 
 .post-content p{
-    margin-bottom: 1.6em;
+    margin-bottom: var(--content-gap);
 }
 
 .post-content ol,
