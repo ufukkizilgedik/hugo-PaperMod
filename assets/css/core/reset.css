@@ -118,3 +118,7 @@ img {
     display: block;
     max-width: 100%;
 }
+
+nav, .buttons, .archive-year-header, .archive-month-header, .archive-meta, .toc, .breadcrumbs, .post-tags, .footer, .post-meta, .terms-tags, .entry-footer {
+    font-family: "main";
+}
