@@ -6,27 +6,27 @@
     --header-height: 60px;
     --footer-height: 60px;
     --radius: 3px;
-    --theme: #faf9f5;
-    --entry: #f0eee6;
-    --primary: #242423;
-    --secondary: #6c6b68;
-    --tertiary: #f0eee6;
-    --content: #242423;
-    --hljs-bg: rgb(28, 29, 33);
-    --code-bg: #f0eee6;
-    --border: #E0DED7;
+    --theme:     #faf9f5;   /* unchanged */
+    --entry:     #f0eee6;   /* unchanged */
+    --primary:   #252420;   /* was #242423 — warmed onto the 48° axis */
+    --secondary: #67655f;   /* was #6c6b68 — warmed + darkened for contrast */
+    --tertiary:  #e6e3da;   /* was #f0eee6 — now a real step below --entry */
+    --content:   #37352f;   /* was #242423 — body sits under headings */
+    --hljs-bg:   #22211d;   /* was rgb(28,29,33) — warm near-black, not blue */
+    --code-bg:   #f0eee6;   /* unchanged */
+    --border:    #e0ded7;   /* unchanged */
 }
 
 .dark {
-    --theme: rgb(29, 30, 32);
-    --entry: rgb(46, 46, 51);
-    --primary: rgb(218, 218, 219);
-    --secondary: rgb(155, 156, 157);
-    --tertiary: rgb(65, 66, 68);
-    --content: rgb(196, 196, 197);
-    --hljs-bg: rgb(46, 46, 51);
-    --code-bg: rgb(55, 56, 62);
-    --border: rgb(51, 51, 51);
+    --theme:     #1c1b1a;
+    --entry:     #2c2b29;
+    --primary:   #dbdad7;
+    --secondary: #9d9b97;
+    --tertiary:  #43423f;
+    --content:   #c6c5c2;
+    --hljs-bg:   #232220;
+    --code-bg:   #373633;
+    --border:    #33322f;
 }
 
 .list {
